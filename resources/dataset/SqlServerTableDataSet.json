@@ -5,7 +5,7 @@
 			"referenceName": "SqlServerLinkedService",
 			"type": "LinkedServiceReference",
 			"parameters": {
-				"DBName": "Person"
+				"DBName": "personinfo2"
 			}
 		},
 		"annotations": [],
@@ -27,7 +27,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "employee"
+			"table": "Person"
 		}
 	}
 }
