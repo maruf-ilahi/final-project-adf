@@ -2,7 +2,7 @@
 	"name": "AzureJSONDataSet",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SinkBlobProject",
+			"referenceName": "AzureStorageLinkedService",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
