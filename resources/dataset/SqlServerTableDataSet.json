@@ -3,7 +3,10 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "SqlServerLinkedService",
-			"type": "LinkedServiceReference"
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"DBName": "Person"
+			}
 		},
 		"annotations": [],
 		"type": "SqlServerTable",
