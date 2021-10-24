@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
-			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlserverproject5599.database.windows.net;initial catalog=db-project-5599;user id=sqlsa",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0ODEwNzQyOC1jMTEwLTRkZTUtYjFhMi00NzU0Y2U1ZjAwNzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=sqlserverproject5599.database.windows.net;initial catalog=personinfo2;user id=sqlsa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIzNzhhM2IzYi1lODkzLTQyOTktYjRmOS03Njc0MDg2ZmZhNGIiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntimeProject",
