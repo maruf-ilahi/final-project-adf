@@ -5,8 +5,8 @@
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"connectionString": "DefaultEndpointsProtocol=https;AccountName=sablobproject5599;EndpointSuffix=core.windows.net;",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJhNzQ2YzVmNC00NWE0LTQ2ZDAtOTJhYi1iMzZjYWU2NGUwYmQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=storageaccountproject55;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxZDcxN2RmYy05MjBhLTRjYTYtODViZS0xOWIxZGVjMmYxN2MiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntimeProject",
