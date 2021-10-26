@@ -320,25 +320,15 @@
 											"partitionOption": "None"
 										},
 										"sink": {
-											"type": "DelimitedTextSink",
+											"type": "JsonSink",
 											"storeSettings": {
 												"type": "AzureBlobStorageWriteSettings"
 											},
 											"formatSettings": {
-												"type": "DelimitedTextWriteSettings",
-												"quoteAllText": true,
-												"fileExtension": ".txt"
+												"type": "JsonWriteSettings"
 											}
 										},
-										"enableStaging": false,
-										"translator": {
-											"type": "TabularTranslator",
-											"typeConversion": true,
-											"typeConversionSettings": {
-												"allowDataTruncation": true,
-												"treatBooleanAsNumber": false
-											}
-										}
+										"enableStaging": false
 									},
 									"inputs": [
 										{
@@ -349,7 +339,7 @@
 									],
 									"outputs": [
 										{
-											"referenceName": "SinkBlobProject",
+											"referenceName": "AzureJSONDataSet",
 											"type": "DatasetReference",
 											"parameters": {}
 										}
@@ -372,7 +362,7 @@
 			},
 			"dependsOn": [
 				"[concat(variables('factoryId'), '/datasets/AzureSqlDatabaseDataset')]",
-				"[concat(variables('factoryId'), '/datasets/SinkBlobProject')]"
+				"[concat(variables('factoryId'), '/datasets/AzureJSONDataSet')]"
 			]
 		},
 		{
@@ -543,7 +533,8 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobStorageLocation",
-						"container": "sink"
+						"folderPath": "copydatasink",
+						"container": "adfprojectp5"
 					},
 					"columnDelimiter": ",",
 					"escapeChar": "\\",
