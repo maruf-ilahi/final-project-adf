@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"container": "sink"
+				"folderPath": "copydatasink",
+				"container": "adfprojectp5"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
