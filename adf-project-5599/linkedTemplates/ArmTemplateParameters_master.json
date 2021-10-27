@@ -20,6 +20,9 @@
 		"SqlServerLinkedService_connectionString": {
 			"value": ""
 		},
+		"SqlServerMoviesLS_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
