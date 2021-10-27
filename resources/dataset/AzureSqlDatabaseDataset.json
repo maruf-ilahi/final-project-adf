@@ -23,8 +23,8 @@
 			}
 		],
 		"typeProperties": {
-			"schema": "SalesLT",
-			"table": "Customer"
+			"schema": "dbo",
+			"table": "headofstates"
 		}
 	}
 }
