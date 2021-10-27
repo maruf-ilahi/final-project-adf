@@ -2,8 +2,11 @@
 	"name": "DataSetSQLMoviesDynamic",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SqlServerMoviesLS",
-			"type": "LinkedServiceReference"
+			"referenceName": "SqlServerLinkedService",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"DBName": "db-project-5599"
+			}
 		},
 		"parameters": {
 			"TableName": {
