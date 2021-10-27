@@ -2,14 +2,8 @@
 	"name": "DataSetSQLMoviesDynamic",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SqlServerLinkedService",
-			"type": "LinkedServiceReference",
-			"parameters": {
-				"DBName": {
-					"value": "@dataset().DatabaseName",
-					"type": "Expression"
-				}
-			}
+			"referenceName": "SqlServerMoviesLS",
+			"type": "LinkedServiceReference"
 		},
 		"parameters": {
 			"TableName": {

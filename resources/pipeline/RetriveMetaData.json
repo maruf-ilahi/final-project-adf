@@ -33,7 +33,7 @@
 				}
 			},
 			{
-				"name": "ForEach1",
+				"name": "LoopOverMetaData",
 				"type": "ForEach",
 				"dependsOn": [
 					{
@@ -49,6 +49,7 @@
 						"value": "@activity('LookupMetaData').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "CopyDataBlobToSQL",
