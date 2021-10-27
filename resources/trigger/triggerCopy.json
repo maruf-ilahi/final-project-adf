@@ -15,9 +15,9 @@
 		"typeProperties": {
 			"recurrence": {
 				"frequency": "Minute",
-				"interval": 1,
-				"startTime": "2021-10-27T02:25:00Z",
-				"timeZone": "UTC"
+				"interval": 5,
+				"startTime": "2021-10-27T02:29:00",
+				"timeZone": "GMT Standard Time"
 			}
 		}
 	}
